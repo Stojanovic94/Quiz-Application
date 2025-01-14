@@ -1,0 +1,79 @@
+/* Osnovne postavke za telo stranice */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #FFA500; /* Narandžasta pozadina */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #FF4500; /* Tamno narandžasta boja */
+}
+
+input, button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #FF4500;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+}
+
+input:focus, button:focus {
+    outline: none;
+    border-color: #FF6347; /* Svetlija narandžasta boja pri fokusu */
+}
+
+button {
+    background-color: #FF4500;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #FF6347; /* Svetlija narandžasta boja pri hover-u */
+}
+
+a {
+    color: #FF4500;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.input-container {
+    margin-bottom: 15px;
+}
+
+#question-container {
+    padding: 20px;
+}
+
+#answers-container {
+    margin-top: 20px;
+}
+
+button#next-question-btn {
+    background-color: #32CD32; /* Zelena boja za dugme za sledeće pitanje */
+}
+
+button#next-question-btn:hover {
+    background-color: #228B22;
+}
