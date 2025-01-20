@@ -1,10 +1,9 @@
-/* Osnovne postavke za telo stranice */
 body {
     font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
     height: 100vh;
-    background-color: #FFA500; /* Narandžasta pozadina */
+    background-color: #FFA500;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,7 +20,7 @@ body {
 }
 
 h1 {
-    color: #FF4500; /* Tamno narandžasta boja */
+    color: #FF4500;
 }
 
 input, button {
@@ -36,7 +35,7 @@ input, button {
 
 input:focus, button:focus {
     outline: none;
-    border-color: #FF6347; /* Svetlija narandžasta boja pri fokusu */
+    border-color: #FF6347;
 }
 
 button {
@@ -46,7 +45,7 @@ button {
 }
 
 button:hover {
-    background-color: #FF6347; /* Svetlija narandžasta boja pri hover-u */
+    background-color: #FF6347;
 }
 
 a {
@@ -71,7 +70,7 @@ a:hover {
 }
 
 button#next-question-btn {
-    background-color: #32CD32; /* Zelena boja za dugme za sledeće pitanje */
+    background-color: #32CD32;
 }
 
 button#next-question-btn:hover {
